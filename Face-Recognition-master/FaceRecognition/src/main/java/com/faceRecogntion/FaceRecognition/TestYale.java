@@ -25,9 +25,9 @@ public class TestYale {
 
        // recognizer.load("src\\main\\java\\resources\\classifierEigenFacesYale.yml");
        // recognizer.load("src\\main\\java\\resources\\classifierFisherFacesYale.yml");
-        recognizer.load("C:\\Users\\Abhash\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\classifierLBPHYale.yml");
+        recognizer.load("C:\\Users\\Sudhanshu\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\classifierLBPHYale.yml");
 
-        File directory = new File("C:\\Users\\Abhash\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\faces\\training");
+        File directory = new File("C:\\Users\\Sudhanshu\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\faces\\training");
         File[] files = directory.listFiles();
         
         for (File image : files) {           
