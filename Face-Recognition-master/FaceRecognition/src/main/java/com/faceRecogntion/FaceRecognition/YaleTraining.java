@@ -56,7 +56,7 @@ public class YaleTraining {
      	fisherface.save("src\\main\\java\\resources\\classifierFisherFacesYale.yml");*/
      	
      	lbph.train(photos, labels);
-     	lbph.save("C:\\Users\\Abhash\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\classifierLBPHYale.yml");
+     	lbph.save("C:\\Users\\Sudhanshu\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\classifierLBPHYale.yml");
      	JOptionPane.showMessageDialog(null, "Training Complete!","FACE RECOGNITION",JOptionPane.INFORMATION_MESSAGE);
     }
 }
