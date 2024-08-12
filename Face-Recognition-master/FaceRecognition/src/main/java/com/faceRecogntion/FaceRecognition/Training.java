@@ -25,7 +25,7 @@ public class Training {
 	}
 	public void training()
 	{
-		File directory = new File ("C:\\Users\\Abhash\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\photos");
+		File directory = new File ("C:\\Users\\Sudhanshu\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\photos");
 		FilenameFilter imageFilter = new FilenameFilter() {   // filter image type
 			public boolean accept(File dir, String name) {
 				return name.endsWith(".jpg") || name.endsWith(".gif") || name.endsWith(".png") ;
@@ -60,7 +60,7 @@ public class Training {
 		fisherFaces.train(photos, labels);
 		fisherFaces.save("src\\main\\java\\resources\\classifierFisherFaces.yml");*/
 		lbph.train(photos, labels);
-		lbph.save("C:\\Users\\Abhash\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\classifierLBPH.yml");
+		lbph.save("C:\\Users\\Sudhanshu\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\classifierLBPH.yml");
 		JOptionPane.showMessageDialog(null, "Training Faces Done!","FACE RECOGNITION",JOptionPane.INFORMATION_MESSAGE);
 	}
 }
