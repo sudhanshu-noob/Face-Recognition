@@ -21,7 +21,7 @@ public class YaleTraining {
         
     }
     public void yaleTraining() {
-    	File directory = new File("C:\\Users\\Abhash\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\faces\\training");
+    	File directory = new File("C:\\Users\\Sudhanshu\\Documents\\eclipse-workspace\\faceRecognition\\src\\main\\resources\\faces\\training");
         FilenameFilter imageFilter = new FilenameFilter() {   // filter image type
 			public boolean accept(File dir, String name) {
 				return name.endsWith(".jpg") || name.endsWith(".gif") || name.endsWith(".png") ;
